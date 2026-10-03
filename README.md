@@ -1,1 +1,2 @@
 # odin-recipes
+"Hello! The focus of this project is going to be building a "recipes" website. I will demonstrate all that I have learned so far form TheOdinProject consisting mostly of HTML fundamentals as a little bit of git.
