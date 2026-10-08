@@ -1,0 +1,29 @@
+/* styles.css */
+
+.crpIntro {
+    color: burlywood;
+}
+
+.jamIntro {
+    color: darkgoldenrod;
+}
+
+.ssIntro {
+    color: crimson;
+}
+
+#jamTitle {
+    background-color: rgb(76, 16, 215);
+}
+
+#crpTitle {
+    background-color: violet;
+}
+
+#ssTitle {
+    background-color: lightslategrey;
+}
+
+body {
+    background-color: dimgray;
+}
