@@ -42,5 +42,6 @@ body {
 .jamIndex {
     font-family: Helvetica, "Times New Roman", sans-serif;
     font-size: 32px;
+    background-color: black;
     color: white;
 }
