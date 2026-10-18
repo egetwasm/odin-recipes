@@ -27,3 +27,20 @@
 body {
     background-color: rgb(99, 156, 164);
 }
+.crpIndex {
+    font-family: Helvetica, "Times New Roman", sans-serif;
+    font-size: 32px;
+    background-color: black;
+    color: white;
+}
+.ssIndex {
+    font-family: Helvetica, "Times New Roman", sans-serif;
+    font-size: 32px;
+    background-color: black;
+    color: white;
+}
+.jamIndex {
+    font-family: Helvetica, "Times New Roman", sans-serif;
+    font-size: 32px;
+    color: white;
+}
