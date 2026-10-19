@@ -1,5 +1,4 @@
 /* styles.css */
-
 .crpIntro {
     color: burlywood;
 }
@@ -27,21 +26,23 @@
 body {
     background-color: rgb(99, 156, 164);
 }
-.crpIndex {
-    font-family: Helvetica, "Times New Roman", sans-serif;
-    font-size: 32px;
-    background-color: black;
-    color: white;
+div {
+    padding: 30px;
+  text-align: center;
+  margin-bottom: 10px;
 }
-.ssIndex {
-    font-family: Helvetica, "Times New Roman", sans-serif;
-    font-size: 32px;
-    background-color: black;
-    color: white;
-}
+.crpIndex,
+.ssIndex,
 .jamIndex {
     font-family: Helvetica, "Times New Roman", sans-serif;
     font-size: 32px;
-    background-color: black;
+    background-color: gold;
     color: white;
+    text-decoration: none;
+    padding: 30px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.home {
+     background-color: gold;
 }
