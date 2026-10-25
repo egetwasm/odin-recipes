@@ -41,3 +41,10 @@ body {
 .home {
      background-color: gold;
 }
+#pastTitle {
+    background-color: rgb(125, 32, 32);
+}
+
+.pastIntro {
+    color: maroon;
+}
