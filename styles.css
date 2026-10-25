@@ -11,6 +11,10 @@
     color: crimson;
 }
 
+.pastIntro {
+    color: maroon;
+}
+
 #jamTitle {
     background-color: rgb(76, 16, 215);
 }
@@ -23,12 +27,18 @@
     background-color: lightslategrey;
 }
 
+#pastTitle {
+    background-color: rgb(125, 32, 32);
+}
+
 body {
     background-color: rgb(99, 156, 164);
 }
+
 .crpIndex,
 .ssIndex,
-.jamIndex {
+.jamIndex,
+.pastIndex {
     display: block;
     font-family: Helvetica, "Times New Roman", sans-serif;
     font-size: 32px;
@@ -38,13 +48,7 @@ body {
     text-align: center;
     margin: 0 auto;
 }
-.home {
-     background-color: gold;
-}
-#pastTitle {
-    background-color: rgb(125, 32, 32);
-}
 
-.pastIntro {
-    color: maroon;
+.home {
+    background-color: gold;
 }
