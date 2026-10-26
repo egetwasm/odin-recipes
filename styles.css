@@ -15,24 +15,39 @@
     color: maroon;
 }
 
-#jamTitle {
-    background-color: rgb(76, 16, 215);
-}
-
-#crpTitle {
-    background-color: violet;
-}
-
-#ssTitle {
-    background-color: lightslategrey;
-}
-
+#jamTitle,
+#crpTitle,
+#ssTitle,
 #pastTitle {
-    background-color: rgb(125, 32, 32);
+    color: gold;
 }
 
 body {
     background-color: rgb(50, 51, 51);
+}
+
+.recipePage {
+    color: gold;
+}
+
+.recipePage h2 {
+    color: white;
+}
+
+.recipePage ul,
+.recipePage ol {
+    color: grey;
+}
+
+.recipePage .crpIntro,
+.recipePage .jamIntro,
+.recipePage .ssIntro,
+.recipePage .pastIntro {
+    color: gold;
+}
+
+.recipePage .home {
+    color: black;
 }
 
 .homeTitle {
