@@ -32,7 +32,7 @@
 }
 
 body {
-    background-color: rgb(99, 156, 164);
+    background-color: rgb(50, 51, 51);
 }
 
 .crpIndex,
@@ -43,7 +43,7 @@ body {
     font-family: Helvetica, "Times New Roman", sans-serif;
     font-size: 32px;
     background-color: gold;
-    color: white;
+    color: black;
     padding: 10px 20px;
     text-align: center;
     margin: 0 auto;
@@ -56,10 +56,27 @@ body {
     color: black;
 }
 
-.home {
-    background-color: gold;
+.crpIndex,
+.ssIndex,
+.jamIndex,
+.pastIndex {
+    display: block;
+    padding: 10px 20px;
+    width: fit-content;
+    text-decoration: none;
 }
 
-.home a {
+.home {
+    display: inline-block;
+    background-color: gold;
     color: black;
+    text-decoration: none;
+}
+
+a {
+    display: inline-block;
+    padding: 0.15em 0.3em;
+    background-color: gold;
+    color: black;
+    border: 5px solid rgb(0, 0, 0);
 }
