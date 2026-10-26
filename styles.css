@@ -49,6 +49,13 @@ body {
     margin: 0 auto;
 }
 
+.crpIndex a,
+.ssIndex a,
+.jamIndex a,
+.pastIndex a {
+    color: black;
+}
+
 .home {
     background-color: gold;
 }
