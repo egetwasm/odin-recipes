@@ -1,31 +1,40 @@
 /* styles.css */
-.crpIntro {
-    color: burlywood;
-}
 
-.jamIntro {
-    color: purple;
-}
-
-.ssIntro {
-    color: crimson;
-}
-
-.pastIntro {
-    color: maroon;
-}
-
-#jamTitle,
-#crpTitle,
-#ssTitle,
-#pastTitle {
-    color: gold;
-}
-
+/* Shared page styles */
 body {
     background-color: rgb(50, 51, 51);
 }
 
+a {
+    display: inline-block;
+    padding: 0.15em 0.3em;
+    background-color: gold;
+    color: black;
+    border: 5px solid rgb(241, 237, 237);
+}
+
+/* Homepage */
+.homeTitle {
+    color: gold;
+}
+
+.crpIndex,
+.ssIndex,
+.jamIndex,
+.pastIndex {
+    display: block;
+    width: fit-content;
+    margin: 0 auto;
+    padding: 10px 20px;
+    font-family: Helvetica, "Times New Roman", sans-serif;
+    font-size: 32px;
+    background-color: gold;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+}
+
+/* Recipe pages */
 .recipePage {
     color: gold;
 }
@@ -39,63 +48,13 @@ body {
     color: grey;
 }
 
-.recipePage .crpIntro,
-.recipePage .jamIntro,
-.recipePage .ssIntro,
-.recipePage .pastIntro {
-    color: gold;
-}
-
 .recipePage .home {
     color: black;
 }
 
-.homeTitle {
+#jamTitle,
+#crpTitle,
+#ssTitle,
+#pastTitle {
     color: gold;
-}
-
-.crpIndex,
-.ssIndex,
-.jamIndex,
-.pastIndex {
-    display: block;
-    font-family: Helvetica, "Times New Roman", sans-serif;
-    font-size: 32px;
-    background-color: gold;
-    color: black;
-    padding: 10px 20px;
-    text-align: center;
-    margin: 0 auto;
-}
-
-.crpIndex a,
-.ssIndex a,
-.jamIndex a,
-.pastIndex a {
-    color: black;
-}
-
-.crpIndex,
-.ssIndex,
-.jamIndex,
-.pastIndex {
-    display: block;
-    padding: 10px 20px;
-    width: fit-content;
-    text-decoration: none;
-}
-
-.home {
-    display: inline-block;
-    background-color: gold;
-    color: black;
-    text-decoration: none;
-}
-
-a {
-    display: inline-block;
-    padding: 0.15em 0.3em;
-    background-color: gold;
-    color: black;
-    border: 5px solid rgb(241, 237, 237);
 }
