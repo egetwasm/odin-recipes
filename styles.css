@@ -52,6 +52,11 @@ a {
 #jamTitle,
 #crpTitle,
 #ssTitle,
-#pastTitle {
+#pastTitle,
+#redBeansTitle {
+    color: gold;
+}
+
+.redBeansIntro {
     color: gold;
 }
